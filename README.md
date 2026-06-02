@@ -4,14 +4,19 @@
 
 ## Badges
 
-```
-![AWS](https://img.shields.io/badge/AWS-EC2-orange?style=for-the-badge&logo=amazonaws)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-Gemini_AI-blue?style=for-the-badge&logo=googlecloud)
-![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-red?style=for-the-badge&logo=streamlit)
-![AI](https://img.shields.io/badge/Generative_AI-Gemini-success?style=for-the-badge)
-![MultiCloud](https://img.shields.io/badge/Multi_Cloud-AWS+GCP-purple?style=for-the-badge)
-```
+<p align="center">
+
+<img src="https://img.shields.io/badge/AWS-EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white">
+
+<img src="https://img.shields.io/badge/Google_Cloud-Gemini_AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white">
+
+<img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white">
+
+<img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
+
+<img src="https://img.shields.io/badge/Multi_Cloud-AWS+GCP-8A2BE2?style=for-the-badge">
+
+</p>
 
 ## 💼 Business Problem
 
