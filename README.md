@@ -1,10 +1,6 @@
 # 🚀 ATS Multi-Cloud AI Platform
 
 <p align="center">
-  <img src="assets/github-banner.png" width="100%">
-</p>
-
-<p align="center">
 
 <img src="https://img.shields.io/badge/AWS-EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white">
 
@@ -16,6 +12,11 @@
 
 <img src="https://img.shields.io/badge/Multi_Cloud-AWS+GCP-8A2BE2?style=for-the-badge">
 
+</p>
+
+
+<p align="center">
+  <img src="assets/github-banner.png" width="100%">
 </p>
 
 
