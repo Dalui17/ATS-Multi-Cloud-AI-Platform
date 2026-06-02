@@ -31,7 +31,7 @@ Recruiters and hiring managers often spend significant time manually reviewing r
 
 ## ☁️ Multi-Cloud Architecture
 
-``
+```
 ![Architecture](architecture/multicloud-architecture.png)
 ```
 
@@ -60,7 +60,7 @@ Google Cloud Responsibilities:
 
 ## 📂 Repository Structure
 
-```text
+```
 ATS-Multi-Cloud-AI-Platform/
 ├── app/
 ├── architecture/
@@ -76,7 +76,7 @@ ATS-Multi-Cloud-AI-Platform/
 ## ⚙️ ATS Workflow
 
 ![Workflow](architecture/ats-workflow.png)
-```
+
 
 
 
@@ -153,8 +153,6 @@ http://PUBLIC_IP:8501
 ---
 ## 📸 Application Screenshots
 
-<h2>📸 Application Screenshots</h2>
-
 <h3>🔹 ATS Homepage</h3>
 
 <p align="center">
@@ -166,7 +164,7 @@ http://PUBLIC_IP:8501
 <p align="center">
   <img src="screenshots/06-final-result.png" width="100%">
 </p>
-----
+---
 
 ## 🔐 Security Considerations
 
