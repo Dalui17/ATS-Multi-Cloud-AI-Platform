@@ -4,7 +4,7 @@
 
 ## Badges
 
-```markdown
+```
 ![AWS](https://img.shields.io/badge/AWS-EC2-orange?style=for-the-badge&logo=amazonaws)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-Gemini_AI-blue?style=for-the-badge&logo=googlecloud)
 ![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
@@ -28,7 +28,7 @@ Recruiters and hiring managers often spend significant time manually reviewing r
 
 ## ☁️ Multi-Cloud Architecture
 
-```markdown
+``
 ![Architecture](architecture/multicloud-architecture.png)
 ```
 
@@ -68,13 +68,13 @@ ATS-Multi-Cloud-AI-Platform/
 
 ## 🔄 Request Flow
 
-```markdown
+```
 ![Request Flow](architecture/request-flow.png)
 ```
 
 ## ⚙️ ATS Workflow
 
-```markdown
+```
 ![Workflow](architecture/ats-workflow.png)
 ```
 
