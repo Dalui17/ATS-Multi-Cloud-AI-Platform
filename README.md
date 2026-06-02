@@ -3,6 +3,7 @@
 <p align="center">
   <img src="assets/github-banner.png" width="100%">
 </p>
+<p align="center">
 <img src="https://skillicons.dev/icons?i=aws,python,git,github" />
 </p>
 
