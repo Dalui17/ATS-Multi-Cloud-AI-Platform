@@ -69,6 +69,42 @@ The application:
 
 ---
 
+## 📝 Text-Based Architecture
+
+```text
+Recruiter
+    │
+    ▼
+Upload Resume (PDF)
+    │
+    ▼
+AWS EC2
+(Streamlit ATS Application)
+    │
+    ├── Resume Parsing (PyPDF)
+    ├── Job Description Processing
+    └── Request Handling
+    │
+    ▼
+Google Gemini AI
+    │
+    ├── Skill Extraction
+    ├── Keyword Analysis
+    ├── Match Percentage
+    └── Candidate Evaluation
+    │
+    ▼
+ATS Evaluation Engine
+    │
+    ├── Missing Skills
+    ├── Strength Analysis
+    ├── Match Score
+    └── Hiring Recommendation
+    │
+    ▼
+Recruiter Dashboard
+```
+
 ## 🏗 Architecture Overview
 
 | Component | Purpose |
