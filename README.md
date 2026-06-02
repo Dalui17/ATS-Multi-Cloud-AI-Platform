@@ -23,10 +23,6 @@
 
 ---
 
-<p align="center">
-  <img src="architecture/multicloud-architecture.png" width="100%">
-</p>
-<p align="center">
 <img src="https://skillicons.dev/icons?i=aws,python,git,github" />
 </p>
 
@@ -62,6 +58,14 @@ The application:
 - Detects missing skills
 - Generates AI-powered recommendations
 - Produces recruiter-ready evaluations
+
+---
+
+## ☁️ Multi-Cloud Architecture
+
+<p align="center">
+  <img src="architecture/multicloud-architecture.png" width="100%">
+</p>
 
 ---
 
