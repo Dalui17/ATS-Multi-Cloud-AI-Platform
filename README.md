@@ -156,13 +156,13 @@ http://PUBLIC_IP:8501
 <h3>🔹 ATS Homepage</h3>
 
 <p align="center">
-  <img src="screenshots/05-ats-homepage.png" width="100%">
+  <img src="screenshots/05-ats-homepage.png" width="70%">
 </p>
 
 <h3>🔹 AI Candidate Evaluation</h3>
 
 <p align="center">
-  <img src="screenshots/06-final-result.png" width="100%">
+  <img src="screenshots/06-final-result.png" width="90%">
 </p>
 ---
 
