@@ -284,6 +284,7 @@ http://PUBLIC_IP:8501
 ### Final Evaluation
 
 <img src="screenshots/06-final-result.png" width="80%">
+
 ---
 
 ## 🔐 Security Considerations
