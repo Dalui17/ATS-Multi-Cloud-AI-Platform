@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="architecture/multicloud-architecture.png" width="100%">
-</p>
+
 
 # 🚀 ATS Multi-Cloud AI Platform
 
@@ -17,6 +15,11 @@
 <img src="https://img.shields.io/badge/Multi_Cloud-AWS+GCP-8A2BE2?style=for-the-badge">
 
 </p>
+
+<p align="center">
+  <img src="architecture/multicloud-architecture.png" width="100%">
+</p>
+
 
 > AI-Powered Applicant Tracking System (ATS) deployed on AWS and integrated with Google Gemini AI for intelligent resume analysis, keyword extraction, skill matching, and candidate evaluation.
 
