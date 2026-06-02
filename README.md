@@ -1,7 +1,5 @@
 # 🚀 ATS Multi-Cloud AI Platform
 
-> AI-Powered Applicant Tracking System (ATS) deployed on AWS and integrated with Google Gemini AI for intelligent resume analysis, keyword extraction, skill matching, and candidate evaluation.
-
 <p align="center">
 
 <img src="https://img.shields.io/badge/AWS-EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white">
@@ -16,8 +14,7 @@
 
 </p>
 
-
-
+> AI-Powered Applicant Tracking System (ATS) deployed on AWS and integrated with Google Gemini AI for intelligent resume analysis, keyword extraction, skill matching, and candidate evaluation.
 
 ## 💼 Business Problem
 
