@@ -165,15 +165,13 @@ http://PUBLIC_IP:8501
 - PDF Parsing
 - Networking
 
-## 🚀 Future Enhancements
-
-- Docker
-- Kubernetes
-- Terraform
-- CI/CD
-- Prometheus
-- Grafana
 
 ## 👨‍💻 Author
 
 Anirban Dalui
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub
