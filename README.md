@@ -143,7 +143,7 @@ The application:
 | 🌐 Version Control | Git & GitHub |
 | 💻 Operating System | Ubuntu Linux |
 
----
+```
 
 ## 📂 Repository Structure
 
