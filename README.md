@@ -172,6 +172,7 @@ ATS-Multi-Cloud-AI-Platform/
 │   └── troubleshooting.md
 │
 └── README.md
+
 ```
 
 ## 📋 Prerequisites
@@ -182,6 +183,21 @@ ATS-Multi-Cloud-AI-Platform/
 - Ubuntu EC2 Instance
 - Python 3.x
 
+```
+
+## 📊 Project Metrics
+
+| Metric | Value |
+|---------|---------|
+| Cloud Provider | AWS |
+| AI Platform | Google Gemini |
+| Architecture | Multi-Cloud |
+| Deployment Model | EC2 Hosted |
+| Resume Format | PDF |
+| Frontend | Streamlit |
+| Language | Python |
+
+```
 
 ## 🚀 Deployment Guide
 
@@ -251,23 +267,23 @@ http://PUBLIC_IP:8501
 
 ### Gemini API Enabled
 
-<img src="screenshots/02-gemini-api-enabled.png" width="70%">
+<img src="screenshots/02-gemini-api-enabled.png" width="60%">
 
 ### API Key Configuration
 
-<img src="screenshots/03-api-key-created.png" width="70%">
+<img src="screenshots/03-api-key-created.png" width="60%">
 
 ### Streamlit Startup
 
-<img src="screenshots/04-streamlit-running.png" width="70%">
+<img src="screenshots/04-streamlit-running.png" width="60%">
 
 ### ATS Homepage
 
-<img src="screenshots/05-ats-homepage.png" width="70%">
+<img src="screenshots/05-ats-homepage.png" width="80%">
 
 ### Final Evaluation
 
-<img src="screenshots/06-final-result.png" width="70%">
+<img src="screenshots/06-final-result.png" width="80%">
 ---
 
 ## 🔐 Security Considerations
@@ -310,4 +326,10 @@ Azure DevOps Engineer Expert
 
 ## ⭐ Support
 
-If you like this project, give it a ⭐ on GitHub
+<p align="center">
+
+⭐ If you found this project useful, consider starring the repository.
+
+🚀 Built to demonstrate Multi-Cloud Architecture, AI Integration, and Cloud Deployment skills.
+
+</p>
