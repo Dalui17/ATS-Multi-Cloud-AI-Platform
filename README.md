@@ -68,13 +68,10 @@ ATS-Multi-Cloud-AI-Platform/
 
 ## 🔄 Request Flow
 
-```
 ![Request Flow](architecture/request-flow.png)
-```
 
 ## ⚙️ ATS Workflow
 
-```
 ![Workflow](architecture/ats-workflow.png)
 ```
 
