@@ -1,5 +1,4 @@
 
-
 # 🚀 ATS Multi-Cloud AI Platform
 
 <p align="center">
@@ -25,16 +24,65 @@
 
 ## 💼 Business Problem
 
-Recruiters and hiring managers often spend significant time manually reviewing resumes and comparing candidate profiles against job descriptions.
+Recruiters and hiring managers often spend hours manually screening resumes against job descriptions.
 
-## 🎯 Solution
+Common challenges:
 
-- Extracts text from uploaded resumes
+- Manual candidate evaluation
+- Time-consuming resume screening
+- Missing qualified candidates
+- Skill gap identification
+- Inconsistent assessment process
+
+---
+
+## 💡 Solution
+
+The ATS Multi-Cloud AI Platform automates the recruitment screening process using Generative AI.
+
+The application:
+
+- Uploads candidate resumes (PDF)
+- Extracts resume content
 - Analyzes job descriptions
-- Matches skills against requirements
-- Identifies missing keywords
-- Generates candidate evaluations
-- Calculates match percentage
+- Identifies relevant skills
+- Calculates job match percentage
+- Detects missing skills
+- Generates AI-powered recommendations
+- Produces recruiter-ready evaluations
+
+---
+
+## 🏗 Architecture Overview
+
+| Component | Purpose |
+|------------|------------|
+| AWS EC2 | Hosts Streamlit ATS Application |
+| Streamlit | User Interface |
+| PyPDF | Extract Resume Content |
+| Gemini AI | Skill Analysis & Evaluation |
+| Google Cloud API | AI Processing |
+| Recruiter Dashboard | Final Candidate Assessment |
+
+
+### Cloud Responsibilities
+
+#### AWS
+
+- Application Hosting
+- Resume Processing
+- User Interaction
+- Runtime Environment
+
+#### Google Cloud
+
+- Generative AI Processing
+- Candidate Evaluation
+- Skill Extraction
+- Match Percentage Analysis
+
+---
+
 
 ## 🌟 Project Highlights
 
@@ -67,6 +115,23 @@ Google Cloud Responsibilities:
 - Resume Evaluation
 - Skill Extraction
 
+
+## 🔄 Request Flow
+
+<p align="center">
+  <img src="architecture/request-flow.png" width="100%">
+</p>
+
+---
+
+## ⚙️ ATS Workflow
+
+<p align="center">
+  <img src="architecture/ats-workflow.png" width="100%">
+</p>
+
+---
+
 ## 🛠 Technology Stack
 
 | Category | Technology |
@@ -80,27 +145,36 @@ Google Cloud Responsibilities:
 | 🌐 Version Control | Git & GitHub |
 | 💻 Operating System | Ubuntu Linux |
 
+---
+
 ## 📂 Repository Structure
 
-```
+```text
 ATS-Multi-Cloud-AI-Platform/
+│
 ├── app/
+│   ├── app.py
+│   ├── index.html
+│   ├── requirements.txt
+│   └── packages.txt
+│
 ├── architecture/
+│   ├── multicloud-architecture.png
+│   ├── request-flow.png
+│   └── ats-workflow.png
+│
 ├── screenshots/
+│   ├── 02-gemini-api-enabled.png
+│   ├── 03-api-key-created.png
+│   ├── 04-streamlit-running.png
+│   ├── 05-ats-homepage.png
+│   └── 06-final-result.png
+│
 ├── docs/
+│   └── troubleshooting.md
+│
 └── README.md
 ```
-
-## 🔄 Request Flow
-
-![Request Flow](architecture/request-flow.png)
-
-## ⚙️ ATS Workflow
-
-![Workflow](architecture/ats-workflow.png)
-
-
-
 
 ## 📋 Prerequisites
 
@@ -109,6 +183,7 @@ ATS-Multi-Cloud-AI-Platform/
 - Gemini API Enabled
 - Ubuntu EC2 Instance
 - Python 3.x
+
 
 ## 🚀 Deployment Guide
 
@@ -173,18 +248,6 @@ http://PUBLIC_IP:8501
 ```
 
 
-## 🏗 Architecture Components
-
-| Component | Purpose |
-|------------|------------|
-| AWS EC2 | Hosts Streamlit ATS Application |
-| Streamlit | User Interface |
-| PyPDF | Extract Resume Content |
-| Gemini AI | Skill Analysis & Evaluation |
-| Google Cloud API | AI Processing |
-| Recruiter Dashboard | Final Candidate Assessment |
-
-
 ---
 ## 📸 Application Screenshots
 
@@ -212,8 +275,10 @@ http://PUBLIC_IP:8501
 ## 🔐 Security Considerations
 
 - Never commit API keys
-- Restrict Security Groups
-- Use least privilege access
+- Restrict Security Group access
+- Rotate compromised credentials
+- Use environment variables where possible
+- Apply least-privilege principles
 
 ## ⚡ Challenges & Learnings
 
@@ -235,7 +300,13 @@ Managed application deployment and external accessibility on AWS EC2.
 
 ## 👨‍💻 Author
 
-Anirban Dalui
+**Anirban Dalui**
+
+Cloud & DevOps Engineer
+
+AWS Certified Solutions Architect Associate
+
+Azure DevOps Engineer Expert
 
 ---
 
