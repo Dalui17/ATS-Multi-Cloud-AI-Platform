@@ -80,7 +80,20 @@ ATS-Multi-Cloud-AI-Platform/
 
 ## 📸 Application Screenshots
 
-Add screenshots from the screenshots folder.
+<h2>📸 Application Screenshots</h2>
+
+<h3>🔹 ATS Homepage</h3>
+
+<p align="center">
+  <img src="screenshots/05-ats-homepage.png" width="100%">
+</p>
+
+<h3>🔹 AI Candidate Evaluation</h3>
+
+<p align="center">
+  <img src="screenshots/06-final-result.png" width="100%">
+</p>
+----
 
 ## 📋 Prerequisites
 
@@ -94,13 +107,13 @@ Add screenshots from the screenshots folder.
 
 ### Step 1 – Launch EC2
 
-```bash
+```
 sudo -i
 ```
 
 ### Step 2 – Install Dependencies
 
-```bash
+```
 apt update
 apt install python3-pip python3-venv git -y
 ```
@@ -114,31 +127,31 @@ cd ATS-Multi-Cloud-AI-Platform/app
 
 ### Step 4 – Create Virtual Environment
 
-```bash
+```
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
 ### Step 5 – Install Packages
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 ### Step 6 – Configure Gemini API
 
-```bash
+```
 mkdir -p .streamlit
 vi .streamlit/secrets.toml
 ```
 
-```toml
+```
 GOOGLE_API_KEY = "YOUR_API_KEY"
 ```
 
 ### Step 7 – Start Application
 
-```bash
+```
 streamlit run app.py --server.port 8501 --server.address 0.0.0.0
 ```
 
@@ -148,7 +161,7 @@ Port 8501 (Custom TCP)
 
 ### Step 9 – Access Application
 
-```text
+```
 http://PUBLIC_IP:8501
 ```
 
