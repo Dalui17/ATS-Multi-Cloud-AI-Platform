@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="architecture/multicloud-architecture.png" width="100%">
+</p>
+
 # 🚀 ATS Multi-Cloud AI Platform
 
 <p align="center">
@@ -29,11 +33,24 @@ Recruiters and hiring managers often spend significant time manually reviewing r
 - Generates candidate evaluations
 - Calculates match percentage
 
-## ☁️ Multi-Cloud Architecture
+## 🌟 Project Highlights
 
-```
-![Architecture](architecture/multicloud-architecture.png)
-```
+✅ Multi-Cloud Integration (AWS + Google Cloud)
+
+✅ AI-Powered Resume Analysis using Gemini AI
+
+✅ Automated Skill Matching & Candidate Evaluation
+
+✅ Real-Time Resume Processing
+
+✅ AWS EC2 Deployment
+
+✅ Streamlit-Based Web Interface
+
+✅ PDF Resume Parsing with PyPDF
+
+✅ Recruiter-Friendly Candidate Assessment
+
 
 ## 🏗 Architecture Overview
 
@@ -49,14 +66,16 @@ Google Cloud Responsibilities:
 
 ## 🛠 Technology Stack
 
-| Layer | Technology |
-|---------|---------|
-| Cloud | AWS |
-| AI | Google Gemini |
-| Compute | EC2 |
-| Language | Python |
-| Framework | Streamlit |
-| PDF Processing | PyPDF |
+| Category | Technology |
+|-----------|-----------|
+| ☁️ Cloud Platform | AWS EC2 |
+| 🤖 AI Engine | Google Gemini AI |
+| 🐍 Programming Language | Python |
+| 🎨 Frontend | Streamlit |
+| 📄 Document Processing | PyPDF |
+| 🔐 Authentication | API Key |
+| 🌐 Version Control | Git & GitHub |
+| 💻 Operating System | Ubuntu Linux |
 
 ## 📂 Repository Structure
 
@@ -150,20 +169,41 @@ Port 8501 (Custom TCP)
 http://PUBLIC_IP:8501
 ```
 
+
+## 🏗 Architecture Components
+
+| Component | Purpose |
+|------------|------------|
+| AWS EC2 | Hosts Streamlit ATS Application |
+| Streamlit | User Interface |
+| PyPDF | Extract Resume Content |
+| Gemini AI | Skill Analysis & Evaluation |
+| Google Cloud API | AI Processing |
+| Recruiter Dashboard | Final Candidate Assessment |
+
+
 ---
 ## 📸 Application Screenshots
 
-<h3>🔹 ATS Homepage</h3>
+### Gemini API Enabled
 
-<p align="center">
-  <img src="screenshots/05-ats-homepage.png" width="70%">
-</p>
+<img src="screenshots/02-gemini-api-enabled.png" width="70%">
 
-<h3>🔹 AI Candidate Evaluation</h3>
+### API Key Configuration
 
-<p align="center">
-  <img src="screenshots/06-final-result.png" width="90%">
-</p>
+<img src="screenshots/03-api-key-created.png" width="70%">
+
+### Streamlit Startup
+
+<img src="screenshots/04-streamlit-running.png" width="70%">
+
+### ATS Homepage
+
+<img src="screenshots/05-ats-homepage.png" width="70%">
+
+### Final Evaluation
+
+<img src="screenshots/06-final-result.png" width="70%">
 ---
 
 ## 🔐 Security Considerations
@@ -174,10 +214,20 @@ http://PUBLIC_IP:8501
 
 ## ⚡ Challenges & Learnings
 
-- Cross-Cloud Integration
-- API Authentication
-- PDF Parsing
-- Networking
+### Multi-Cloud Communication
+Established secure communication between the AWS-hosted application and the Google Gemini API.
+
+### Resume Parsing Accuracy
+Handled different resume formats and PDF structures.
+
+### AI Prompt Engineering
+Designed prompts to generate consistent candidate evaluations and match scores.
+
+### Security Configuration
+Configured EC2 Security Groups and API authentication securely.
+
+### Production Deployment
+Managed application deployment and external accessibility on AWS EC2.
 
 
 ## 👨‍💻 Author
