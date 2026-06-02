@@ -75,22 +75,7 @@ ATS-Multi-Cloud-AI-Platform/
 ![Workflow](architecture/ats-workflow.png)
 ```
 
-## 📸 Application Screenshots
 
-<h2>📸 Application Screenshots</h2>
-
-<h3>🔹 ATS Homepage</h3>
-
-<p align="center">
-  <img src="screenshots/05-ats-homepage.png" width="100%">
-</p>
-
-<h3>🔹 AI Candidate Evaluation</h3>
-
-<p align="center">
-  <img src="screenshots/06-final-result.png" width="100%">
-</p>
-----
 
 ## 📋 Prerequisites
 
@@ -117,7 +102,7 @@ apt install python3-pip python3-venv git -y
 
 ### Step 3 – Clone Repository
 
-```bash
+```
 git clone https://github.com/YOUR_USERNAME/ATS-Multi-Cloud-AI-Platform.git
 cd ATS-Multi-Cloud-AI-Platform/app
 ```
@@ -161,6 +146,24 @@ Port 8501 (Custom TCP)
 ```
 http://PUBLIC_IP:8501
 ```
+
+---
+## 📸 Application Screenshots
+
+<h2>📸 Application Screenshots</h2>
+
+<h3>🔹 ATS Homepage</h3>
+
+<p align="center">
+  <img src="screenshots/05-ats-homepage.png" width="100%">
+</p>
+
+<h3>🔹 AI Candidate Evaluation</h3>
+
+<p align="center">
+  <img src="screenshots/06-final-result.png" width="100%">
+</p>
+----
 
 ## 🔐 Security Considerations
 
