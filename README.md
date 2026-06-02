@@ -18,9 +18,6 @@
 <p align="center">
   <img src="assets/github-banner.png" width="100%">
 </p>
-
----
-
 <p align="center">
 <img src="https://skillicons.dev/icons?i=aws,python,git,github" />
 </p>
@@ -29,6 +26,8 @@
 
 > AI-Powered Applicant Tracking System (ATS) deployed on AWS and integrated with Google Gemini AI for intelligent resume analysis, keyword extraction, skill matching, and candidate evaluation.
 
+
+---
 
 
 ## 💼 Business Problem
