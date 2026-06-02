@@ -14,13 +14,22 @@
 <img src="https://img.shields.io/badge/Multi_Cloud-AWS+GCP-8A2BE2?style=for-the-badge">
 
 </p>
+---
+
+> AI-Powered Applicant Tracking System (ATS) deployed on AWS and integrated with Google Gemini AI for intelligent resume analysis, keyword extraction, skill matching, and candidate evaluation.
+
+---
 
 <p align="center">
   <img src="architecture/multicloud-architecture.png" width="100%">
 </p>
+<p align="center">
+<img src="https://skillicons.dev/icons?i=aws,python,git,github" />
+</p>
 
 
-> AI-Powered Applicant Tracking System (ATS) deployed on AWS and integrated with Google Gemini AI for intelligent resume analysis, keyword extraction, skill matching, and candidate evaluation.
+
+---
 
 ## 💼 Business Problem
 
@@ -64,6 +73,7 @@ The application:
 | Google Cloud API | AI Processing |
 | Recruiter Dashboard | Final Candidate Assessment |
 
+---
 
 ### Cloud Responsibilities
 
@@ -102,19 +112,7 @@ The application:
 
 ✅ Recruiter-Friendly Candidate Assessment
 
-
-## 🏗 Architecture Overview
-
-AWS Responsibilities:
-- EC2 Compute
-- Streamlit Hosting
-- Resume Processing
-
-Google Cloud Responsibilities:
-- Gemini AI Processing
-- Resume Evaluation
-- Skill Extraction
-
+---
 
 ## 🔄 Request Flow
 
